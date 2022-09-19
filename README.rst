@@ -1,8 +1,9 @@
 ERP System
 ==========
 
-.. |Documentation Status| image:: vertopal_5b12338291164d45a75f3769f2c2dab5/953c326c10eb69335c02e3ea0216a2929daa276f.svg
-   :target: https://erp-system.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/erp-system-documentation/badge/?version=latest
+    :target: https://erp-system-documentation.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
 
 This application was generated using JHipster 7.3.1, you can find
 documentation and help at
