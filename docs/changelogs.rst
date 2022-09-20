@@ -1,6 +1,11 @@
 Changes
 =======
 
+version 0.1.1-SNAPSHOT
+***********************
+
+ - Adds placeholders and parent to the mapping entity
+
 Version 0.1.0-SNAPSHOT
 **********************
 
