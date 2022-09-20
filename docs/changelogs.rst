@@ -1,5 +1,5 @@
-Changes
-=======
+Server Changes
+==============
 
 version 0.1.1-SNAPSHOT
 ***********************
