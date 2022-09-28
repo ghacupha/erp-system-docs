@@ -28,3 +28,16 @@ Baruch Series
 
 Milestones for the Baruch Series
 ----------------------------------
+ - Setup a base framework for reporting using jasper-reports
+ - Setup a concept for dynamically designing jasper-reports on the fly 
+ - Create links to other entities to the reporting framework for purposes of identity, authorization and tracking
+ - Create sample report designs
+ - Institute parameters for use in prefilling report requisition forms with prefered inputs
+
+
+ Caleb Series
+ ************
+
+ Milestones for the Caleb Series
+ --------------------------------
+ 
