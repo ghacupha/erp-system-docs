@@ -92,3 +92,27 @@ downloaded by the user. Will this be enough to stall man-in-the-middle or compro
 but research is in progress.
 
 And that's how we have implemented the reporting platform.
+
+Report parameters (Updated 2022-09-29 Caleb Series)
+*****************
+
+So the reporting system is all well in good, this side of the Caleb series. They work and if you know what you are
+doing, you should easily construct one with proper formatting and insert a query to populate the report
+to your heart delights.
+Except of course there's the issue of parameters. There will come a time you will need to generate a report based on
+some reporting date or some dealer or a certain specific invoice or outlet; what do you do and how
+do you ensure the database filters your report with the correct parameters. You write or amend the existing
+query, but it would be mockery to call it automation when you have to do that for all kinds of reports.
+So the other option would be to create multiple angular forms for all kinds of things. Then everytime you
+create a report you would have to restart the client server and create another component or two.
+Then align the API and then start the client server again.
+That's decidedly not ideal either.
+So this is what we need; i thought I would say it even if at present I do not have the know-how
+to implement it. We need to be able to create fields dynamically for each report. If that would work
+the form-group object and related form-controls would also need to be dynamically created with all
+the required features, e.g. validatation, input search and so on and so forth.
+This would mean that a report design is created and at the time of creation it is associated with a 
+group of instances of a dynamic form which will then be invoked when the report is requisitioned.
+This is going to take some serious effort and likely will be become the only achievement, if achieved,
+in the Caleb series.
+
